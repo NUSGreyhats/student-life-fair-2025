@@ -1,0 +1,53 @@
+body {
+	color: #FEFEFE;
+	background-color: #0A0B11;
+	margin: 0 auto;
+	padding: 1em 0 1em 0;
+}
+a { 
+	color: #93ffd7;
+	text-decoration: none; 
+}
+img {
+	width: 100vh;
+	height: auto;
+
+}
+@font-face { 
+	font-family: "unifont"; 
+	src: url("./unifont.woff") format('woff'); 
+}
+pre { 
+	font-family: "unifont", "Lucida Console", monospace, Monaco; 
+	font-size:2vh; 
+	line-height: 1.0;
+	padding-left:3vh;
+}
+.txtdiv {
+	display: block;
+	text-align: left;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+.typewriter {
+	width: 20ch;
+	animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 3px solid #FFFFFF;
+}
+@keyframes typing {
+	from {
+		width: 0
+	}
+}
+@keyframes blink {
+	50% {
+		border-color: transparent
+	}
+}
+x { 
+  color: #a7c7e7;
+  text-decoration: none; 
+}
+
